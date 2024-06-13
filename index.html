@@ -1,0 +1,77 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Number Guess</title>
+    </head>
+    <link rel="stylesheet" href="style.css">
+    <body>
+        <header>
+            <nav class="fixed-nav">
+                <div class="nav darkpurple ">
+                    <div class="letft">
+                        <div class="logo">
+                            <span><b class="font-bold">&lt;MG&gt;</b> PROJECTS</span>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <ul class="target">
+                            <img src="stop.svg" class="speaker" alt="">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <div class="over_cont">
+                
+                <div class="cardd">
+                    <p class="mainheading">Guess the Number</p>
+                    <div class="frame">
+                        <h1>?</h1>
+                    </div>
+                    <div class="heading">Select from the options below :-</div>
+                    <div class="buttons">
+                        <button class="option" onclick="selectButton(this,1)">1</button>
+                        <button class="option" onclick="selectButton(this,2)">2</button>
+                        <button class="option" onclick="selectButton(this,3)">3</button>
+                        <button class="option" onclick="selectButton(this,4)">4</button>
+                        <button class="option" onclick="selectButton(this,5)">5</button>
+                        <button class="option" onclick="selectButton(this,6)">6</button>
+                        <button class="option" onclick="selectButton(this,7)">7</button>
+                        <button class="option" onclick="selectButton(this,8)">8</button>
+                        <button class="option" onclick="selectButton(this,9)">9</button>
+                        <button class="option" onclick="selectButton(this,10)">10</button>
+                    </div>
+                    <div class="card_foot">
+                        <div class="info">You got 5 tries left !</div>
+                        <div class="settings">
+                            <button id="reset">Reset</button>
+                        </div>
+                    </div>
+                    
+
+
+                </div>
+            </div>
+        </main>
+        <div id="video-background">
+            <video autoplay muted loop>
+                <source src="bgvideo.mp4" type="video/mp4" >
+            </video>
+        </div>
+        <footer>
+            <div class="cc">
+                <div class="details">
+                    <span class="namee popfont"><b class="font-bold">&lt;MG&gt;</b> PROJECTS   </span>
+                    <p class="textt popfont">Copyright © <!-- -->2024<!-- --> MgProjects.com<!-- --></p>
+                </div>
+            </div>
+        </footer> 
+        <script src="script.js"></script>
+    </body>
+
+    </html>

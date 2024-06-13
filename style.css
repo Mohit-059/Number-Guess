@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+#video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    overflow: hidden;
+}
+
+#video-background video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+header, main, footer {
+    position: relative;
+    z-index: 1;
+}
+
+.cardd{
+    background-color: rgb(255, 255, 255,0.7);
+    width:350px;
+    height:410px;
+    
+}
+
+.over_cont{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    margin:auto;
+    margin-top:5.5vh;
+}
+
+.frame{
+    border:2px solid white;
+    height:175px;
+    width:320px;
+    margin:7px 14px;
+
+}
+
+.frame h1{
+    font-size: 150px;
+    display:flex;
+    justify-content: center;
+}
+
+.card_foot, .buttons, .heading{
+    margin-left:12px;
+}
+
+.settings{
+    display:flex;
+    justify-content: center;
+    gap:10px;
+}
+
+.heading{
+    font-size:23px;
+}
+
+.mainheading{
+    font-size:xx-large;
+    font-weight: 800;
+    display:flex;
+    justify-content: center;
+    text-decoration:underline;;
+}
+
+.buttons button{
+    padding:8.5px;
+    background-color:black;
+    color:white;
+    cursor:pointer;
+    margin:6px 0;
+}
+
+.buttons button:hover{
+    border:2px solid rgb(255, 255, 255);
+    text-decoration: underline;
+}
+
+
+.info{
+    display:flex;
+    justify-content: center;
+    margin:6px;
+    font-weight:600;
+    font-size:17px;
+    margin-right:17.5px;
+}
+
+.settings button{
+    background-color:black;
+    color:white;
+    padding:10px;
+}
+
+.nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.right ul {
+    display:flex;
+    gap:12px;
+    margin-right:20px;
+    list-style-type: none;
+    cursor:pointer;
+}
+
+.right ul li a{
+    color:rgb(255, 255, 255);
+    text-decoration:none;
+    cursor:pointer;
+}
+
+.right ul li a:hover{
+    text-decoration: underline;
+}
+
+.nav{
+    padding:10px 0;
+    padding-bottom:20px;
+    font-size:17px
+}
+
+.logo{
+    margin-left:10px;
+}
+
+.fixed-nav{
+    background-color: rgb(14, 12, 12);
+    color:white;
+}
+
+.details{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    padding:10px 10px;
+}
+
+.details{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    padding:10px 10px;
+    color:white;
+    background-color: rgb(14, 12, 12);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.textt{
+    padding-right:17px;
+}
